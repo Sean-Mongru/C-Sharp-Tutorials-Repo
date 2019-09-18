@@ -1,0 +1,7 @@
+C:\Users\SeanM\Source\Repos\C-Sharp\C-Sharp-Tutorials-Repo\Inheritance_Challenge\obj\Debug\Inheritance_Challenge.csprojAssemblyReference.cache
+C:\Users\SeanM\Source\Repos\C-Sharp\C-Sharp-Tutorials-Repo\Inheritance_Challenge\obj\Debug\Inheritance_Challenge.csproj.CoreCompileInputs.cache
+C:\Users\SeanM\Source\Repos\C-Sharp\C-Sharp-Tutorials-Repo\Inheritance_Challenge\bin\Debug\Inheritance_Challenge.exe.config
+C:\Users\SeanM\Source\Repos\C-Sharp\C-Sharp-Tutorials-Repo\Inheritance_Challenge\bin\Debug\Inheritance_Challenge.exe
+C:\Users\SeanM\Source\Repos\C-Sharp\C-Sharp-Tutorials-Repo\Inheritance_Challenge\bin\Debug\Inheritance_Challenge.pdb
+C:\Users\SeanM\Source\Repos\C-Sharp\C-Sharp-Tutorials-Repo\Inheritance_Challenge\obj\Debug\Inheritance_Challenge.exe
+C:\Users\SeanM\Source\Repos\C-Sharp\C-Sharp-Tutorials-Repo\Inheritance_Challenge\obj\Debug\Inheritance_Challenge.pdb

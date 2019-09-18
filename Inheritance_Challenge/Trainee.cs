@@ -6,18 +6,24 @@ using System.Threading.Tasks;
 
 namespace Inheritance_Challenge
 {
-    class Trainee
+    class Trainee:Employee
     {
         private float workingHours;
         private float schoolHours;
 
-        Learn()
+        public Trainee(int workingHours, int schoolHours, string firstName, string lastName, int salary) : base(firstName, lastName, salary)
         {
-
+            this.workingHours = workingHours;
+            this.schoolHours = schoolHours;
         }
-        work()
-        {
 
+        public void Learn()
+        {
+            Console.WriteLine("I am learning for {0} hours!", schoolHours);
+        }
+        public void work()
+        {
+            Console.WriteLine("I am working for {0} hours!", workingHours);
         }
     }
 }

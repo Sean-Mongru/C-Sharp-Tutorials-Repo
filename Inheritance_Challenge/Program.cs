@@ -10,12 +10,22 @@ namespace Inheritance_Challenge
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            Console.WriteLine("Welcome to worker system #9000!");
+            Employee Sean = new Employee("Mongru", "Sean", 25000);
+            Sean.work();
+            Sean.pause();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            Boss chuckNorris = new Boss("Lambo", "Chuck", "Norris", 999999);
+            chuckNorris.Lead();
+
+            Trainee emma = new Trainee(16, 40, "Emma", "Watson", 4000);
+            emma.Learn();
+            emma.work();
+
+
+            Console.ReadLine();
+            Console.Read();
+
         }
     }
 }
