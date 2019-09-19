@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Text_Files
 {
@@ -10,12 +11,49 @@ namespace Text_Files
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            //Reading from a file
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+
+            //string text = System.IO.File.ReadAllText(@"C:\Users\SeanM\Source\Repos\C-Sharp\Sean-C-Sharp-Repo\Text_Files\text_prog_test.txt");
+
+            //Console.WriteLine("Textfile Contain the following text: {0}", text);
+
+            //string[] Lines = System.IO.File.ReadAllLines(@"C:\Users\SeanM\Source\Repos\C-Sharp\Sean-C-Sharp-Repo\Text_Files\text_prog_test.txt");
+            //Console.WriteLine("Contents of Text file are: ");
+            //foreach(string line in Lines)
+            //{
+            //    Console.WriteLine("\t" + line);
+            //}
+
+            ////Method 2: Writing to a file
+            string[] Lines = { "First Line", "Second Line", "Third Line" };
+
+            //File.WriteAllLines(@"C:\Users\SeanM\Source\Repos\C-Sharp\Sean-C-Sharp-Repo\Text_Files\text_prog_test.txt", Lines);
+
+            //Console.WriteLine("What is the file name?");
+            //string fileName = Console.ReadLine();
+            //Console.WriteLine();
+
+            //Console.WriteLine("What file contents??");
+            //string contents = Console.ReadLine();
+
+            //Method 3:
+            using (StreamWriter file = new StreamWriter(@"C:\Users\SeanM\Source\Repos\C-Sharp\Sean-C-Sharp-Repo\Text_Files\text_prog_test.txt"))
+            {
+                foreach (string line in Lines)
+                {
+                    if (line.Contains("First"))
+                    {
+                        file.WriteLine(line);
+                    }
+                }
+            }
+            using (StreamWriter file = new StreamWriter(@"C:\Users\SeanM\Source\Repos\C-Sharp\Sean-C-Sharp-Repo\Text_Files\text_prog_test.txt", true))
+            {
+                file.WriteLine("Additional Line");
+            }
+
+            Console.ReadKey();
         }
     }
 }

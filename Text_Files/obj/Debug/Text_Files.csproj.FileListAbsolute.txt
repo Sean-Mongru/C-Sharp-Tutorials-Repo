@@ -1,0 +1,7 @@
+C:\Users\SeanM\Source\Repos\C-Sharp\Sean-C-Sharp-Repo\Text_Files\bin\Debug\Text_Files.exe.config
+C:\Users\SeanM\Source\Repos\C-Sharp\Sean-C-Sharp-Repo\Text_Files\bin\Debug\Text_Files.exe
+C:\Users\SeanM\Source\Repos\C-Sharp\Sean-C-Sharp-Repo\Text_Files\bin\Debug\Text_Files.pdb
+C:\Users\SeanM\Source\Repos\C-Sharp\Sean-C-Sharp-Repo\Text_Files\obj\Debug\Text_Files.csprojAssemblyReference.cache
+C:\Users\SeanM\Source\Repos\C-Sharp\Sean-C-Sharp-Repo\Text_Files\obj\Debug\Text_Files.csproj.CoreCompileInputs.cache
+C:\Users\SeanM\Source\Repos\C-Sharp\Sean-C-Sharp-Repo\Text_Files\obj\Debug\Text_Files.exe
+C:\Users\SeanM\Source\Repos\C-Sharp\Sean-C-Sharp-Repo\Text_Files\obj\Debug\Text_Files.pdb
